@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.landing{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+
+}
+
+.logo{
+    margin-right: 7rem;
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    position: relative;
+}
+.logo span{
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke: 0.1rem #e99827;
+    color: #fff;
+}
+
+.logo-circle{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.logo-circle:nth-child(2) {
+    background-color: #ff1925;
+    right: 2rem;
+  }
+.logo-circle:nth-child(3) {
+    background-color: #e99827;
+    right: 2rem;
+    right: 0;
+    opacity: 0.8;
+  }
+
+.nav-left-items a {
+    font-size: 15px;
+    color: #6e8fb6;
+    margin-right: 4rem;
+  }
+  
+.nav-right-items {
+    display: flex;
+    align-items: center;
+  }
+
+
+.nav-right-items a {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6e8fb6;
+    margin-left: 2rem;
+  }
+
+.nav-right-items a:last-child {
+    width: 10rem;
+    height: 4rem;
+    border: 0.2rem solid #6e8fb6;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.banner {
+    width: 100%;
+    height: 60rem;
+    padding: 0 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.banner-left h1 {
+    font-size: 7rem;
+    color: #333;
+    text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+.banner-left h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #333;
+    text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+
+
+
+.banner-left p {
+    width: 50rem;
+    font-size: 1.6rem;
+    color: #6e8fb6;
+    line-height: 1.5;
+  }
+
+.banner-left .btn-left {
+    width: 34rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+
+
+.banner-left .btn-left button {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 5rem;
+    padding: 0 1rem;
+    background-color: #111;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+.btn-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+.banner-left .btn-left button span:nth-child(1) {
+    font-size: 1rem;
+  }
+  
+.banner-left .btn-left button span:nth-child(2) {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+  }
+  
+.banner-left .btn-left img {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+
+.bg-cont div {
+    position: absolute;
+    width: 55rem;
+    height: 30rem;
+    border-radius: 50%;
+    opacity: 0.4;
+    filter: blur(6rem);
+  }
+
+
+.bg-1 {
+    top: 12%;
+    right: 25%;
+    background-color: #e79a33;
+  }
+  
+.bg-2 {
+    top: 12%;
+    right: 10%;
+    background-color: #da5e72;
+  }
+  
+.bg-3 {
+    top: 30%;
+    right: 25%;
+    background-color: #3cc9e7;
+  }
+  
+.bg-4 {
+    top: 30%;
+    right: 10%;
+    background-color: #b641e4;
+  }
+
+
+.bank-card {
+    position: absolute;
+    width: 15rem;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.8rem);
+  }
+
+.bank-card:nth-child(2) {
+    top: 40%;
+    right: 18%;
+  }
+  
+.bank-card:nth-child(3) {
+    top: 40%;
+    right: 25%;
+    z-index: 100;
+  }
+  
+.bank-card:nth-child(4) {
+    top: 40%;
+    right: 12%;
+  }
+
+
+.chip {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 6rem;
+    height: 4rem;
+    background: linear-gradient(to right, #cfd0d4, #fff, #cfd0d4);
+    opacity: 0.7;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+
+.card-holder {
+    position: absolute;
+    top: 3.5rem;
+    left: 11rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+.bank-card-logo {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    display: flex;
+  }
+
+.bank-card .c-logo span {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+.bank-card .c-logo span:nth-child(1) {
+    margin-right: -2rem;
+  }
+.exp-date {
+    position: absolute;
+    top: 20%;
+    left: 3rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+.card-number {
+    position: absolute;
+    top: 20%;
+    left: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+.app-name {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 1rem;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+
+
+.currency-2 {
+    position: absolute;
+    top: 25rem;
+    right: 8%;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff969b, #fa5861);
+    box-shadow: 0 0.5rem 1rem rgba(250, 88, 97, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+
+  
+.cards {
+    width: 70%;
+    margin: auto;
+    height: calc(100% - 70rem);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 8rem;
+  }
+
+.card {
+    width: 17rem;
+    height: 20rem;
+    background-color: #ccc;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    position: relative;
+  }
+  
+
+.card:nth-child(1),
+  .card:nth-child(1)::after {
+    background: linear-gradient(to right, #7ae2f8, #10b9de);
+  }
+  
+.card:nth-child(2),
+  .card:nth-child(2)::after {
+    background: linear-gradient(to right, #434549, #242527);
+  }
+  
+.card:nth-child(3),
+  .card:nth-child(3)::after {
+    background: linear-gradient(to right, #ff969b, #fa5861);
+  }
+  
+.card:nth-child(4),
+  .card:nth-child(4)::after {
+    background: linear-gradient(to right, #2a72ea, #0850c7);
+  }
+  
+.card:nth-child(5),
+  .card:nth-child(5)::after {
+    background: linear-gradient(to right, #f9aa42, #e18916);
+  }
+  
+
+.card::after {
+    content: "";
+    position: absolute;
+    bottom: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 5rem;
+    filter: blur(2.5rem);
+    opacity: 0.5;
+  }
+  
+
+.card-logo i,
+  .card-logo span {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    margin-right: 0.4rem;
+  }
+
+
+.card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+.card p:last-child {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: -2rem;
+  }
+  
